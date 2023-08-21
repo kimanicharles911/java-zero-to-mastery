@@ -13,7 +13,11 @@ public class ClassObjSample {
         mia.gender = "Female";
         mia.sleep();
 
-
+        Person james =  new Person();
+        james.name = "James";
+        james.age = 23;
+        james.gender = "Male";
+        james.sleep();
 
     }
 }
