@@ -1,3 +1,5 @@
+package course.mypackageA;
+
 public class ClassObjSample {
     public static void main(String[] args) {
         // an object for the person class
