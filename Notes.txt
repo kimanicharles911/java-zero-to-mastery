@@ -1,0 +1,25 @@
+Java has 4 access modifiers:
+* public - any code and anywhere can be accessed.
+* protected - code in the same package can be accessed and also subclasses and other packages can access.
+* default - code in the same package can be accessed.
+* private - code within the same class can be accessed.
+
+Accessibility can be assigned to:
+* classes
+* variables
+* methods
+* interfaces
+* constructors
+
++-----------------+--------------+----------------+----------------------------------+-----------------+
+| Access Modifier | Within Class | Within Package | Outside package by subclass only | Outside Package |
++-----------------+--------------+----------------+----------------------------------+-----------------+
+| Private         | Y            | N              | N                                | N               |
++-----------------+--------------+----------------+----------------------------------+-----------------+
+| Default         | Y            | Y              | N                                | N               |
++-----------------+--------------+----------------+----------------------------------+-----------------+
+| Protected       | Y            | Y              | Y                                | N               |
++-----------------+--------------+----------------+----------------------------------+-----------------+
+| Public          | Y            | Y              | Y                                | Y               |
++-----------------+--------------+----------------+----------------------------------+-----------------+
+
