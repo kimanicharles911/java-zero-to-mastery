@@ -3,7 +3,7 @@ package course.p1;
 import course.p2.C;
 
 class A{
-    public void sayHello(){
+    void sayHello(){
         System.out.println("Hello from A.");
     }
 }
@@ -16,3 +16,9 @@ public class B {
         c.sayHello();
     }
 }
+
+
+/*
+ * >> For lesson 16. Access Modifiers - How/When to use Access Modifiers in Java
+ * 
+ */

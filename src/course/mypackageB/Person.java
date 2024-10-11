@@ -16,3 +16,7 @@ public class Person {
         }
     }
 }
+
+/* 
+ * >> Also referenced in Lesson 19. Introduction to Java Variables
+ */
